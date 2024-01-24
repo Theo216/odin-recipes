@@ -1,0 +1,44 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+* {
+    text-align: center;
+    padding: 10px; /*padding determines the space between the edges of the box and the content inside */
+    margin: 10px; /*margin goes around the element itself, determines space between boxes */
+    border: 10px, gray; /*border refers to the space between the padding and the margin */
+}
+
+.inPage {
+    background-color: blueviolet;
+    color: deeppink;
+}
+
+#tuna {
+    background-color: greenyellow;
+    color: red;
+}
+
+#melkkos {
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    color: orangered;
+}
+
+#lasagna {
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#lasagna .green { /*this takes priority over the ID lasagna because while their priority is both the same this also has the class green, elevating priority */
+    background-color: green;
+    font-weight: bold;
+}
+
+.box-one {
+    padding: 40%;
+}
